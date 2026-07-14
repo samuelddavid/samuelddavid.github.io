@@ -111,8 +111,8 @@ export const projects = [
       'Co-facilitated execution of India’s flagship national AI summit in New Delhi — coordinating stakeholders across policy, industry and AI research ecosystems.',
     metric: 'National stage · New Delhi',
     tags: ['AI Policy', 'IndiaAI', 'Stakeholder Ops'],
-    image: null, // [PLACEHOLDER] '/images/projects/indiaai.webp'
-    imageAlt: 'IndiaAI Impact Summit 2026',
+    image: '/images/projects/indiaai.jpg',
+    imageAlt: 'Madhya Pradesh delegation at the IndiaAI Impact Summit 2026',
     live: '#', // [PLACEHOLDER] summit / coverage link
     github: null,
   },
@@ -131,10 +131,10 @@ export const projects = [
     title: 'Municipal Asset Management',
     description:
       'Centralised municipal inventory & asset management system — role-based access controls, maintenance logs and real-time asset tracking across departments.',
-    metric: 'Hackathon Finalist · Acropolis, Indore',
+    metric: 'Finalist · top 80 of 1,700 · Municipal Corporation of Indore',
     tags: ['MERN', 'RBAC', 'Real-time Tracking'],
-    image: null, // [PLACEHOLDER] '/images/projects/municipal-assets.webp'
-    imageAlt: 'Municipal inventory and asset management system',
+    image: '/images/projects/municipal-assets.jpg',
+    imageAlt: 'Municipal inventory and asset management system — Indore Municipal Corporation site',
     live: null,
     github: '#', // [PLACEHOLDER]
   },
@@ -151,16 +151,18 @@ export const projects = [
   },
 ]
 
-/** Photo strip — drop images in /public/images/photos/ and list them here. */
+/** Photo strip — images pulled from LinkedIn posts, in /public/images/photos/. */
 export const photos = [
-  { src: null, alt: '[PLACEHOLDER] At the IndiaAI Impact Summit 2026, New Delhi', caption: 'IndiaAI Summit 2026 · New Delhi' },
-  { src: null, alt: '[PLACEHOLDER] Transparify winning moment', caption: 'Transparify — National Winner' },
-  { src: null, alt: '[PLACEHOLDER] Accathon 2.0 at Nirma University', caption: 'Accathon 2.0 · 2nd, National' },
-  { src: null, alt: '[PLACEHOLDER] Directing Lakecity Hack 2025', caption: 'Lakecity Hack 2025 · 500+ builders' },
-  { src: null, alt: '[PLACEHOLDER] Ujjain Mahakumbh National Hackathon operations', caption: 'Mahakumbh Hackathon · Ujjain' },
-  { src: null, alt: '[PLACEHOLDER] At MPSeDC, Bhopal', caption: 'MPSeDC · Bhopal' },
-  { src: null, alt: '[PLACEHOLDER] Campus shot at Jagran Lakecity University', caption: 'JLU · Bhopal' },
-  { src: null, alt: '[PLACEHOLDER] Candid / travel photo', caption: 'Off the clock' },
+  { src: '/images/photos/indiaai-summit.jpg', alt: 'MP pavilion at the IndiaAI Impact Summit 2026, New Delhi', caption: 'IndiaAI Summit 2026 · New Delhi' },
+  { src: '/images/photos/mahakumbh.jpg', alt: 'Core organiser badge at the Ujjain Mahakumbh National Hackathon', caption: 'Mahakumbh Hackathon · Ujjain · Core Organiser' },
+  { src: '/images/photos/roundtable.jpg', alt: 'Roundtable Conference on State Statistical & Data Management Systems, AIGGPA Bhopal', caption: 'Policy Roundtable · AIGGPA, Bhopal · Jul 2025' },
+  { src: '/images/photos/lakecity-hack.jpg', alt: 'Organising team at Lakecity Hack 2025', caption: 'Lakecity Hack 2025 · 500+ builders' },
+  { src: '/images/photos/accathon.jpg', alt: 'Receiving 2nd place at Accathon 2.0, Nirma University', caption: 'Accathon 2.0 · 2nd, National · Nirma University' },
+  { src: '/images/photos/iciaset.jpg', alt: 'Presenting research paper at ICIASET-2024, Bhopal', caption: 'ICIASET-2024 · Research paper presented' },
+  { src: '/images/photos/enventure.jpg', alt: 'Case Quest AI consulting challenge at Enventure ’25, St. Xavier’s Mumbai', caption: 'Enventure ’25 · AI Case Quest · Mumbai' },
+  { src: '/images/photos/ficticorp.jpg', alt: 'Finalist certificate, Ficti Corp Challenge at BECon, eDC IIT Delhi', caption: 'Ficti Corp Challenge · Finalist · IIT Delhi' },
+  { src: '/images/photos/mpsedc-booth.jpg', alt: 'MPSeDC innovation lab booth', caption: 'MPSeDC · State IT Centre' },
+  { src: '/images/photos/jlu-podium.jpg', alt: 'Speaking at the podium, Jagran Lakecity University', caption: 'JLU · Bhopal' },
 ]
 
 export const skills = [
