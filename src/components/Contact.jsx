@@ -33,8 +33,8 @@ export default function Contact() {
         </h2>
 
         <p data-reveal className="mx-auto mt-8 max-w-md text-lg text-white/55">
-          Open to AI engineering roles, public-sector tech, and ambitious
-          products. The inbox is always warm.
+          Open to business analyst, product &amp; operations and data roles,
+          public-sector tech, and ambitious products. The inbox is always warm.
         </p>
 
         <div data-reveal className="mt-12">

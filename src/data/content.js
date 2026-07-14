@@ -9,8 +9,8 @@
 
 export const site = {
   name: 'Samuel David', // display name (résumé: Samuel D. David)
-  role: 'AI Engineer / Software Developer',
-  tagline: 'AI engineer building for governance at scale.',
+  role: 'Business Analyst · Product & Operations · Data & Systems',
+  tagline: 'Building data-driven systems for governance at scale.',
   location: 'Bhopal, India',
   email: 'samueld.david01@gmail.com',
   phone: '+91 9993393096',
@@ -26,19 +26,21 @@ export const about = {
   portrait: '/images/portrait.webp', // from LinkedIn profile — swap for a higher-res original anytime
   portraitAlt: 'Portrait of Samuel David',
   paragraphs: [
-    `I work where AI meets government. At MPSeDC I automated departmental
-     reporting through the CM Pragati Dashboard — cutting manual consolidation
-     effort by ~40% — and co-facilitated the IndiaAI Impact Summit 2026 in
-     New Delhi. At Rajya NITI Aayog I turned multi-department datasets into
-     governance insights for policy-level decisions.`,
-    `Final-year BCA (Hons.) at Jagran Lakecity University (9.1 CGPA, class of
+    `I work where data meets government. At Pahle India Foundation I run a
+     statewide Training Needs Assessment dashboard covering all 52 districts
+     of Madhya Pradesh. At MPSeDC I automated departmental reporting through
+     the CM Pragati Dashboard — cutting manual consolidation effort by ~40% —
+     and co-facilitated the IndiaAI Impact Summit 2026 in New Delhi. At Rajya
+     NITI Aayog I turned multi-department datasets into governance insights
+     for policy-level decisions.`,
+    `Final-year BCA (Hons.) at Jagran Lakecity University (9.16 CGPA, class of
      2026) and Chancellor's Scholar. National winner at Transparify, 2nd at
      Accathon 2.0, and I've directed a 35-member team running a 500+
      participant state hackathon. Toolkit: Python, RAG pipelines,
      LangChain / LangGraph / LlamaIndex, FAISS and Pinecone.`,
   ],
   stats: [
-    { value: '9.1', label: 'CGPA · BCA (Hons.), JLU 2026' },
+    { value: '9.16', label: 'CGPA · BCA (Hons.), JLU 2026' },
     { value: '2', label: 'National hackathon podiums' },
     { value: '500+', label: 'Participants at Lakecity Hack 2025, led a 35-member team' },
   ],
@@ -46,9 +48,21 @@ export const about = {
 
 export const experience = [
   {
+    org: 'Pahle India Foundation (PIF)',
+    role: 'Tech Intern',
+    period: 'May 2026 – Present',
+    summary:
+      'Directorate of Economics & Statistics, Govt. of MP — statewide training analytics.',
+    points: [
+      'Conducted a pilot Training Needs Assessment (TNA) study in Indore and built a live dashboard to visualise results in real time.',
+      'Scaled the pilot into a statewide real-time TNA dashboard covering all 52 districts, fetching live employee assessment data with skill- and division-wise comparisons.',
+      'Enabled self-serve, downloadable division-wise TNA reports directly from the dashboard.',
+    ],
+  },
+  {
     org: 'MPSeDC',
     role: 'Technology Intern',
-    period: 'Aug – Oct 2025 · Feb 2026 – Present',
+    period: 'Aug – Oct 2025 · Feb – Apr 2026',
     summary:
       'M.P. State Electronics Development Corporation — state digital governance systems.',
     points: [
@@ -139,10 +153,10 @@ export const projects = [
     github: '#', // [PLACEHOLDER]
   },
   {
-    title: 'Training Needs Assessment',
+    title: 'TNA Dashboard — Govt. of MP',
     description:
-      'Statewide TNA dashboards mapping skill gaps across government departments to drive training policy.',
-    metric: 'Statewide · every department · one view',
+      'Real-time statewide Training Needs Assessment dashboard for the Directorate of Economics & Statistics — live employee assessment data, skill- and division-wise comparisons, and self-serve downloadable reports. Scaled from an Indore pilot.',
+    metric: 'All 52 districts · live · self-serve reports',
     tags: ['Python', 'Data Analytics', 'Dashboards'],
     image: null, // [PLACEHOLDER] '/images/projects/tna.webp'
     imageAlt: 'Training Needs Assessment dashboard',
@@ -170,7 +184,7 @@ export const skills = [
     group: 'AI / Data',
     items: [
       'RAG Pipelines', 'Prompt Engineering', 'Semantic Search',
-      'AI Workflow Automation', 'LLM Integration', 'LangChain', 'LangGraph',
+      'AI Workflow Automation', 'LLM Integration (OpenAI API)', 'LangChain', 'LangGraph',
       'LlamaIndex', 'FAISS', 'Pinecone', 'Hugging Face',
     ],
   },
