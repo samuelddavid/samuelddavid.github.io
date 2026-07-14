@@ -9,6 +9,7 @@ import CursorGlow from './components/CursorGlow'
 import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
+import BeforeAfter from './components/BeforeAfter'
 import Projects from './components/Projects'
 import PhotoStrip from './components/PhotoStrip'
 import Skills from './components/Skills'
@@ -40,6 +41,7 @@ export default function App() {
         <Hero introDone={introDone} />
         <About />
         <Experience />
+        <BeforeAfter />
         <Projects />
         <PhotoStrip />
         <Skills />
