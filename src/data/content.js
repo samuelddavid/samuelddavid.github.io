@@ -34,10 +34,10 @@ export const about = {
      NITI Aayog I turned multi-department datasets into governance insights
      for policy-level decisions.`,
     `Final-year BCA (Hons.) at Jagran Lakecity University (9.16 CGPA, class of
-     2026) and Chancellor's Scholar. National winner at Transparify, 2nd at
-     Accathon 2.0, and I've directed a 35-member team running a 500+
-     participant state hackathon. Toolkit: Python, RAG pipelines,
-     LangChain / LangGraph / LlamaIndex, FAISS and Pinecone.`,
+     2026) and Chancellor's Scholar. National 2nd place at Accathon 2.0 with
+     Transparify, and I've directed a 35-member team running a 500+
+     participant state hackathon. Toolkit: Python, TypeScript, RAG pipelines,
+     LangChain, FAISS and Hugging Face.`,
   ],
   stats: [
     { value: '9.16', label: 'CGPA · BCA (Hons.), JLU 2026' },
@@ -184,21 +184,27 @@ export const skills = [
     group: 'AI / Data',
     items: [
       'RAG Pipelines', 'Prompt Engineering', 'Semantic Search',
-      'AI Workflow Automation', 'LLM Integration (OpenAI API)', 'LangChain', 'LangGraph',
-      'LlamaIndex', 'FAISS', 'Pinecone', 'Hugging Face',
+      'AI Workflow Automation', 'LLM Integration (OpenAI API)', 'LangChain',
+      'FAISS', 'Hugging Face',
     ],
   },
   {
     group: 'Back-end & Data',
-    items: ['Python', 'Node.js', 'Express', 'MongoDB', 'SQL', 'REST APIs'],
+    items: [
+      'Python', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL (Supabase)',
+      'Firebase/Firestore', 'SQL', 'REST APIs',
+    ],
   },
   {
     group: 'Front-end',
-    items: ['React', 'JavaScript', 'HTML/CSS', 'MERN Stack'],
+    items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML/CSS', 'MERN Stack'],
   },
   {
     group: 'Tools & Practice',
-    items: ['Git & GitHub', 'Postman', 'Dashboards & Reporting', 'Stakeholder Management'],
+    items: [
+      'Git & GitHub', 'Vercel', 'Firebase Hosting', 'GitHub Pages', 'Postman',
+      'Dashboards & Reporting', 'Stakeholder Management',
+    ],
   },
 ]
 
